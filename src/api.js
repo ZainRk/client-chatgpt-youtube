@@ -1,7 +1,7 @@
 export const fetchResponse =  async(chat) => {
     try {
-
-        const response = await fetch('http://localhost:3080', {
+        // after depoloyment you should change the fetch URL below
+        const response = await fetch('http://localhost:3080', { 
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
