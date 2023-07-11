@@ -1,5 +1,5 @@
 {
-  "name": "chatgpt2-0-youtube",
+  "name": "clear",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -23,5 +23,17 @@
     "tailwind-scrollbar": "^2.1.0",
     "tailwindcss": "^3.2.4",
     "vite": "^4.0.0"
-  }
+  },
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErathiaChia/client-chatgpt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErathiaChia/client-chatgpt/issues"
+  },
+  "homepage": "https://github.com/ErathiaChia/client-chatgpt#readme",
+  "description": ""
 }
