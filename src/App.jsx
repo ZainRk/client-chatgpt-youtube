@@ -30,7 +30,7 @@ function App() {
 
       {/* header */}
       <div className="uppercase font-bold  text-2xl text-center mb-3">
-        E. Eugene Xie's  Resume
+        Eugene AI doppelgänger
       </div>
 
       {/* body */}
