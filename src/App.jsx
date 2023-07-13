@@ -39,6 +39,7 @@ function App() {
       scrollbar-thumb-slate-400 scrollbar-thin scrollbar-track-gray-tranparent scrollbar-thumb-rounded-md
       "
       >
+
         <ChatBody chat={chat} />
       </div>
 
@@ -46,6 +47,7 @@ function App() {
       <div className="w-full max-w-4xl min-w-[20rem] self-center">
         <ChatInput sendMessage={sendMessage} loading={mutation.isLoading} />
       </div>
+
     </div>
   );
 }
